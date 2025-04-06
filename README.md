@@ -2,7 +2,6 @@
 **A powerlifting tool for lifters, by a lifter — built with Next.js.**
 
 [🌐 Live Site](https://purdueisloaded.vercel.app)  
-[📁 GitHub Repository](#) <!-- Replace with your actual repo link -->
 
 ---
 
