@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Purdue Is Loaded 🏋️‍♂️🚂
+A powerlifting tool for lifters, by a lifter — built with Next.js.
 
-## Getting Started
+Live Site
+GitHub Repository (insert link here)
 
-First, run the development server:
+🏆 Why I Built This
+Over the weekend, I competed at the USAPL Collegiate Nationals in Oklahoma City, proudly representing Purdue Powerlifting. It was an incredible experience — I hit new personal records and even set new Indiana state records!
 
-```bash
+That said, I realized how much I struggled converting pounds to kilograms and choosing attempts on the fly — especially under meet pressure. Everything's in kilos, and I didn’t want to waste mental energy doing math between lifts.
+
+So I built Purdue Is Loaded — a simple, sleek app to help lifters and coaches plan better and lift smarter.
+
+🎯 Features
+🔩 KG-to-Bar Visualizer
+Input any weight in kg, and the app shows:
+
+A barbell visualization with the correct competition plate configuration.
+
+The exact plate math (bar + plate breakdown).
+
+The total weight in both KG and LB.
+
+Color-coded plates with IPF competition standards and Purdue flair (gold 💛).
+
+📈 Attempts Calculator
+Input your third attempt goal, and get:
+
+9 smart attempt suggestions (3 for each round).
+
+Based on % of third attempt (1st: 90–92%, 2nd: 95–97%, 3rd: 99–102%).
+
+Results in both KG and LB, with auto-conversion and rounding to the nearest legal plate (2.5kg).
+
+🚀 Getting Started (Development)
+This is a Next.js project bootstrapped with create-next-app.
+
+🛠️ Local Setup
+bash
+Copy
+Edit
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧠 Project Structure
+app/page.tsx – Home screen: Load The Bar (visualizer).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+app/attempts/page.tsx – Attempts calculator screen.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+app/settings/page.tsx – Placeholder for future settings.
 
-## Learn More
+components/ – Shared React UI components.
 
-To learn more about Next.js, take a look at the following resources:
+public/ – Static assets like icons and favicon.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🌐 Tech Stack
+Frontend: React + Next.js (App Router, Server Components)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Styling: Tailwind CSS
 
-## Deploy on Vercel
+Icons: Font Awesome
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deployment: Vercel (instant CI/CD)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💡 Future Plans
+✅ Add LB-to-KG reverse converter (toggle UI ready!)
+
+⏳ Add meet day checklist & warmup calculator
+
+📲 iOS/Android support via Expo (coming soon)
+
+🔒 Auth support for saving attempt presets and tracking PRs
+
+👋 Who It's For
+Whether you’re:
+
+A first-time competitor
+
+A coach helping new lifters
+
+Or just someone who hates doing last-minute math...
+
+Purdue Is Loaded is designed to help you stay focused on what matters most: lifting big weight and having fun.
+
+🙌 Shoutout
+To the Purdue Powerlifting fam — thanks for the support and drive.
+To my fellow competitors — Boiler Up, and I’ll see you on the platform again soon.
+To every lifter trying to hit their next PR — this one’s for you.
+
+📬 Contributing
+Got a feature idea? Found a bug? Open an issue or pull request — all lifter-friendly improvements welcome.
